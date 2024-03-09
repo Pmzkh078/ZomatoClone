@@ -30,3 +30,22 @@
   background: rgb(252, 238, 192);
   padding: 5px;
 }
+@media screen and (max-width: 800px) {
+  .Navbarlink1 {
+    font-size: 20px;
+    padding-bottom: 16px;
+    margin: 20px;
+  }
+  .DeliveryImage {
+    height: 45px;
+    width: 3rem;
+    margin-right: 0.9rem;
+    margin-top: 8px;
+  }
+  .DinningOutImage {
+    height: 45px;
+    width: 3rem;
+    margin-right: 0.9rem;
+    margin-top: 8px;
+  }
+}
