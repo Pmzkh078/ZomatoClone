@@ -1,0 +1,32 @@
+.Navbarlink1 {
+  color: grey;
+  text-decoration: none;
+  font-size: 25px;
+
+  filter: grayscale(100%);
+  padding-bottom: 25px;
+  margin: 20px;
+}
+.Navbarlink1.active {
+  color: #ef4f5f;
+  filter: grayscale(0%);
+
+  border-bottom: 3px solid #ef4f5f;
+}
+
+.DeliveryImage {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.9rem;
+  border-radius: 50%;
+  background: rgb(229, 243, 243);
+  padding: 5px;
+}
+.DinningOutImage {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.9rem;
+  border-radius: 50%;
+  background: rgb(252, 238, 192);
+  padding: 5px;
+}

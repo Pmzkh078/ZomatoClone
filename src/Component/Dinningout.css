@@ -1,0 +1,288 @@
+.class-wrapper {
+  display: flex;
+}
+.card {
+  margin: 0.5rem;
+  width: calc(90% / 4);
+  max-width: 400px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+  padding: 9px;
+}
+@media screen and (max-width: 800px) {
+  .class-wrapper {
+    height: 460px;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+      rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+    padding: 4px;
+  }
+}
+.CardBody {
+  text-align: left;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: white;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 40%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+  /* transform: translate(-50%); */
+}
+.Gold {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  margin-top: 40px;
+  height: 80px;
+  display: flex;
+
+  z-index: 1;
+  justify-content: center;
+}
+/* .Goldbtn {
+  width: 150px;
+} */
+@media screen and (max-width: 400px) {
+  .Gold {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    max-height: 60px;
+    align-items: center;
+    font-size: 6px;
+  }
+  .Goldbtn {
+    height: 55px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .Goldposter {
+    max-width: 380px;
+    max-height: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Dinning {
+    display: flex;
+    flex-direction: row;
+  }
+  .Carddinning1 {
+    max-width: 120px;
+    max-height: 180px;
+  }
+  .CardBody2 {
+    font-size: 6px;
+  }
+  .Btndinning {
+    max-width: 60px;
+    max-height: 20px;
+    font-size: 5px;
+  }
+  .Titledinning {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  .Star {
+    font-size: 6px !important;
+    margin-top: 4px !important;
+  }
+  .New {
+    max-width: 30px;
+    max-height: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 9px !important;
+    margin-left: 5px;
+    padding-left: 2px !important;
+  }
+  body {
+    overflow-x: none;
+  }
+  .Dine2 {
+    max-height: 72px;
+  }
+  .Dine3 {
+    max-height: 72px;
+  }
+
+  .Mahamahal {
+    font-size: 10px;
+  }
+  .Lithosphere {
+    font-size: 7px;
+  }
+  .Massala {
+    font-size: 7px;
+  }
+  .CardText2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 6px !important;
+    color: #838383;
+    margin-top: -13px !important;
+    /* flex-wrap: wrap; */
+  }
+  .CardText3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 5px !important;
+    color: #838383;
+  }
+  .CardText4 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 5px !important;
+    color: #838383;
+  }
+  .Imginner {
+    margin-top: 38px !important;
+    margin-left: -7px;
+    color: #f4d9a8;
+    font-size: 7px !important;
+    max-width: 80px;
+  }
+  .Textinner {
+    color: #f4d9a8;
+    font-size: 5px !important;
+    margin-top: -10px !important;
+  }
+  .GOLD1 {
+    max-height: 9px !important;
+  }
+  button[id="Sortbtn"] {
+    margin-top: -60px !important;
+    margin-left: 370px !important;
+    position: absolute;
+    max-width: 30px;
+    max-height: 30px;
+    font-size: 25px !important;
+  }
+  .Collections {
+    font-size: 11px;
+    text-align: left;
+  }
+}
+.Goldposter {
+  width: 1280px;
+  height: 300px;
+  margin-top: 50px;
+}
+.Dinning {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: -1;
+}
+.Carddinning1 {
+  width: 320px;
+  height: 360px;
+}
+.Dine2 {
+  height: 212px;
+}
+.Dine3 {
+  height: 212px;
+}
+
+.New {
+  color: #3ab757;
+  border: 1px solid #3ab757;
+  background-color: #ebffef;
+  border-radius: 6px;
+  width: 50px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Titledinning {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.Star {
+  font-size: 10px;
+  margin-top: 6px;
+  color: #3ab757;
+}
+.Inr {
+  color: grey;
+}
+.Right {
+  color: black;
+}
+.CardText2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #838383;
+  margin-top: -18px;
+}
+.CardText4 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #838383;
+  margin-top: -24px;
+}
+.CardText3 {
+  font-size: 15px;
+  color: #838383;
+  margin-top: -32px;
+}
+.Imginner {
+  margin-top: 130px;
+  color: #f4d9a8;
+  background: linear-gradient(rgba(4, 4, 4, 0.6), rgba(4, 4, 4, 0.7));
+  width: 200px;
+  border-radius: 5px;
+}
+.Textinner {
+  color: #f4d9a8;
+  font-size: 10px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.GOLD1 {
+  height: 20px;
+  margin-top: -3px;
+}
+button[id="Sortbtn"] {
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-left: 1400px;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: #e03546;
+  color: white;
+  border: none;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+}
+.Trendrestro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+.Collections1 {
+  margin-top: 30px;
+}

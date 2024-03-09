@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+.Body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(2, 2, 2, 0.9)),
+    url("D:\react\mega\src\assets\product\Screenshot_25-2-2024_193430_www.zomato.com.jpeg");
+  height: 1000px; /* Use viewport height to cover the entire screen */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+input[type="email"],
+button {
+  width: 100%;
+  margin: 10px 0;
+  height: 45px;
+  box-sizing: border-box;
+}
+
+button[id="Btnlogin"] {
+  background-color: rgb(239, 79, 95);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button[id="Googlemobile"] {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+i {
+  color: rgb(239, 79, 95);
+}
