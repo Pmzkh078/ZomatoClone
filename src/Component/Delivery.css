@@ -83,4 +83,162 @@ input[type="search"] {
     height: 30px;
     font-size: 10px;
   }
+  .Roundslider {
+    max-width: 360px !important;
+    margin-top: 10px;
+  }
+  .Roundslide2 {
+    max-width: 360px !important;
+    margin-top: 10px;
+  }
+  .Roundsliderimg {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+      rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+  }
+  .CardTitle {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 8px;
+  }
+  .Carousel-Control-Next,
+  .Carousel-Control-Prev {
+    background-color: white;
+    max-width: 2vh;
+    max-height: 2vh;
+    border-radius: 50%;
+    margin-top: 1%;
+  }
+  .Carousel-Control-Next {
+    margin-right: 35px !important;
+  }
+  .Carousel-Control-Prev {
+    margin-left: 2px !important;
+  }
+  .Brandslider {
+    margin-top: 40px !important;
+  }
+  .Deli3 {
+    max-height: 72px !important;
+  }
+
+  .Delismall {
+    font-size: 10px;
+  }
+  .Delilarge {
+    font-size: 7px;
+  }
+  .Delimid {
+    font-size: 7px;
+  }
+  .card {
+    border: none;
+    padding: none;
+  }
+}
+.Slide1 {
+  display: flex;
+}
+.Roundslider {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin-top: 10px;
+}
+.Roundslide2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1100px;
+  margin-top: 10px;
+}
+.Roundsliderimg {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+}
+.CardTitle {
+  text-align: center;
+  margin-top: 5px;
+}
+.Carousel-Control-Next,
+.Carousel-Control-Prev {
+  background-color: white;
+  width: 4vh;
+  height: 4vh;
+  border-radius: 50%;
+  top: 30%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+}
+.Carousel-Control-Next {
+  margin-right: 210px;
+}
+.Carousel-Control-Prev {
+  margin-left: -5px;
+}
+.Macdimg {
+  margin-top: 1px;
+  padding: 15px;
+}
+.Brandslider {
+  margin-top: 50px;
+}
+.Maxsafety {
+  height: 20px;
+  width: 100px;
+  margin-right: 20px;
+}
+.Delivery {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: -1;
+}
+.Cardelivery1 {
+  width: 320px;
+  height: 400px;
+}
+.Deli3 {
+  max-height: 212px;
+}
+.CardTextmenu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #838383;
+  margin-top: -18px;
+}
+.CardTextkm {
+  display: flex;
+  justify-content: end;
+  font-size: 15px;
+  color: #838383;
+  margin-top: -24px;
+  padding-right: 20px;
+}
+.CardTextimg {
+  display: flex;
+  justify-content: space-between;
+  color: #838383;
+  margin-top: 0px;
+}
+.Maxsafetytext {
+  font-size: 12px;
+  margin-top: -12px;
+}
+.Hrline {
+  margin-top: -34px;
+}
+
+.Card1 {
+  border: none;
+  padding: 9px;
+}
+
+.Card1:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
 }

@@ -9,22 +9,12 @@
   cursor: pointer;
   border: none;
 }
-.card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
-    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
-  padding: 9px;
-}
+
 @media screen and (max-width: 800px) {
   .class-wrapper {
     height: 460px;
-
     display: flex;
     flex-direction: column;
-  }
-  .card:hover {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
-      rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
-    padding: 4px;
   }
 }
 .CardBody {
@@ -114,7 +104,7 @@
     padding-left: 2px !important;
   }
   body {
-    overflow-x: none;
+    overflow-x: none !important;
   }
   .Dine2 {
     max-height: 72px;
@@ -138,7 +128,6 @@
     font-size: 6px !important;
     color: #838383;
     margin-top: -13px !important;
-    /* flex-wrap: wrap; */
   }
   .CardText3 {
     display: flex;
@@ -168,8 +157,8 @@
     max-height: 9px !important;
   }
   button[id="Sortbtn"] {
-    margin-top: -60px !important;
-    margin-left: 370px !important;
+    margin-top: -40px !important;
+    margin-left: 360px !important;
     position: absolute;
     max-width: 30px;
     max-height: 30px;

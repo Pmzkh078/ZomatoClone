@@ -299,8 +299,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Punjabi,North Indian,Guj....
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,000 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,000 for Two
               </p>
             </p>
             <p class="card-text CardText3">Thaltej,Ahmedabad</p>
@@ -322,7 +321,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               North Indian,Mughlai,Chi..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>500 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>500 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -351,8 +350,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Modern Indian,Asian..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,800 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,800 for Two
               </p>
             </p>
             <p class="card-text CardText3">Bodakdev,Ahmedabad</p>
@@ -384,7 +382,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Tex-Mex,North Indian,Ita..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>950 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>950 for Two
               </p>
             </p>
             <p class="card-text CardText3">Thaltej,Ahmedabad</p>
@@ -414,7 +412,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Cafe,Fast Food,Nor..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>950 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>950 for Two
               </p>
             </p>
             <p class="card-text CardText3">Navrangpura,Ahmedabad</p>
@@ -443,8 +441,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Continental,North Indian,Pun..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,200 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,200 for Two
               </p>
             </p>
             <p class="card-text CardText3">Setelite,Ahmedabad</p>
@@ -475,8 +472,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Continental,North Indian,...
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,100 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,100 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -504,8 +500,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Pizza,Italian,Pas..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,700 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,700 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -533,8 +528,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Continental,Maxica..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>3,000 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>3,000 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -557,8 +551,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Italian,Pizza,Mo..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,800 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,800 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -579,7 +572,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Cafe,Fast Food,C..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>500 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>500 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -600,8 +593,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Cafe,Beverages,..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,200 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,200 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -631,7 +623,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Fast Food,Shake,..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>600 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>600 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -659,8 +651,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Chinese,Asian,...
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,000 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,000 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -688,8 +679,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Pizza,Pasta,..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,000 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,000 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -719,7 +709,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Cafe,Beverages,..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>800 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>800 for Two
               </p>
             </p>
             <p class="card-text CardText3">Thaltej,Ahmedabad</p>
@@ -748,8 +738,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               North Indian,Asian..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,600 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,600 for Two
               </p>
             </p>
             <p class="card-text CardText3">Thaltej,Ahmedabad</p>
@@ -778,8 +767,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Gujrati
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>2,500 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>2,500 for Two
               </p>
             </p>
             <p class="card-text CardText3">Lal Darwaja,Ahmedabad</p>
@@ -806,7 +794,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               South Indian,B..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>600 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>600 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -835,8 +823,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               North Indian,Chinese,..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,400 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,400 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -864,8 +851,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Italian,Asian,..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,000 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,000 for Two
               </p>
             </p>
             <p class="card-text CardText4">Thaltej,Ahmedabad</p>
@@ -889,7 +875,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Cafe,Mexican,C..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>800 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>800 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -911,8 +897,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Momos,Fast Food,N..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,400 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,400 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -934,7 +919,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Cafe,Mexican,I..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>950 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>950 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -958,7 +943,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               BBQ,North Indian
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1000 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1000 for Two
               </p>
             </p>
             <p class="card-text CardText3">Vastrapur,Ahmedabad</p>
@@ -981,7 +966,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Bakery,Cafe,San..
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>500 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>500 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -1003,7 +988,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Chinese,Fast Food
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>700 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>700 for Two
               </p>
             </p>
             <p class="card-text CardText3">Ellis Bridge,Ahmedabad</p>
@@ -1028,8 +1013,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               North Indian,Chinese
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>1,000 for
-                Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,000 for Two
               </p>
             </p>
             <p class="card-text CardText4">
@@ -1051,7 +1035,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               Italian,Pizza,...
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>850 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>850 for Two
               </p>
             </p>
             <p class="card-text CardText3">Bodakdev,Ahmedabad</p>
@@ -1075,7 +1059,7 @@ export default function Dinningout() {
             <p class="card-text CardText2">
               South Indian
               <p>
-                <i class="fa fa-Right Right" aria-hidden="true"></i>500 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>500 for Two
               </p>
             </p>
             <p class="card-text CardText3">Sola,Ahmedabad</p>

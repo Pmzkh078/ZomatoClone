@@ -19,7 +19,7 @@
   width: 3rem;
   margin-right: 0.9rem;
   border-radius: 50%;
-  background: rgb(229, 243, 243);
+  background: rgb(252, 238, 192);
   padding: 5px;
 }
 .DinningOutImage {
@@ -27,14 +27,15 @@
   width: 3rem;
   margin-right: 0.9rem;
   border-radius: 50%;
-  background: rgb(252, 238, 192);
+  background: rgb(229, 243, 243);
   padding: 5px;
 }
 @media screen and (max-width: 800px) {
   .Navbarlink1 {
     font-size: 20px;
-    padding-bottom: 16px;
+
     margin: 20px;
+    border: none !important;
   }
   .DeliveryImage {
     height: 45px;
