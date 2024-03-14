@@ -43,7 +43,7 @@ input[type="search"] {
 .Search {
   color: silver;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
   .DeliveryNavbutton {
     width: 200px;
     margin-top: 5px;
@@ -143,13 +143,13 @@ input[type="search"] {
 }
 .Roundslider {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 1100px;
   margin-top: 10px;
 }
 .Roundslide2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 1100px;
   margin-top: 10px;
 }
@@ -192,6 +192,12 @@ input[type="search"] {
   width: 100px;
   margin-right: 20px;
 }
+.safety {
+  height: 20px;
+  width: 60px;
+  margin-right: 20px;
+  margin-top: -7px;
+}
 .Delivery {
   display: flex;
   justify-content: space-evenly;
@@ -201,9 +207,23 @@ input[type="search"] {
   width: 320px;
   height: 400px;
 }
-.Deli3 {
-  max-height: 212px;
+.Cardelivery2 {
+  width: 320px;
+  height: 330px;
 }
+.Deli3 {
+  height: 212px;
+}
+.Deli4 {
+  height: 200px;
+}
+.Deli5 {
+  height: 195px;
+}
+.Deli6 {
+  height: 220px;
+}
+
 .CardTextmenu {
   display: flex;
   justify-content: space-between;
@@ -211,6 +231,14 @@ input[type="search"] {
   color: #838383;
   margin-top: -18px;
 }
+.CardTextmenu1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #838383;
+  margin-top: -10px;
+}
+
 .CardTextkm {
   display: flex;
   justify-content: end;
@@ -219,6 +247,15 @@ input[type="search"] {
   margin-top: -24px;
   padding-right: 20px;
 }
+.CardTextkm2 {
+  display: flex;
+  justify-content: end;
+  font-size: 15px;
+  color: #838383;
+  margin-top: -10px !important;
+  padding-right: 20px;
+}
+
 .CardTextimg {
   display: flex;
   justify-content: space-between;
@@ -232,6 +269,9 @@ input[type="search"] {
 .Hrline {
   margin-top: -34px;
 }
+.Hrline1 {
+  margin-top: -10px !important;
+}
 
 .Card1 {
   border: none;
@@ -241,4 +281,173 @@ input[type="search"] {
 .Card1:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
     rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+}
+.Delimginner {
+  margin-top: 150px;
+  color: white;
+  background: #256fef;
+  width: 80px;
+  height: 20px;
+  font-size: 12px;
+  margin-left: -7px;
+  text-align: center;
+}
+.Delimginner1 {
+  margin-top: 162px;
+  color: white;
+  background: #256fef;
+  width: 80px;
+  height: 20px;
+  font-size: 12px;
+  margin-left: -7px;
+  text-align: center;
+}
+
+.Deltextinner {
+  color: #256fef;
+  font-size: 10px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.BLUE1 {
+  height: 20px;
+  margin-top: -3px;
+}
+.Newstar {
+  color: white;
+  border: 1px solid #3ab757;
+  background-color: #267e3e;
+  border-radius: 6px;
+  width: 50px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Delstar {
+  font-size: 10px;
+  margin-top: 6px;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .Dinning {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Cardelivery1 {
+    max-width: 120px;
+    max-height: 180px;
+  }
+  .Cardelivery2 {
+    width: 120px;
+    height: 180px;
+  }
+  .CardBody2 {
+    font-size: 6px;
+  }
+  .Btndinning {
+    max-width: 60px;
+    max-height: 20px;
+    font-size: 5px;
+  }
+  .Titledinning {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+
+  .Newstar {
+    max-width: 30px;
+    max-height: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 9px !important;
+    margin-left: 5px;
+    padding-left: 2px !important;
+  }
+  .Delstar {
+    font-size: 6px !important;
+    margin-top: 4px !important;
+  }
+  body {
+    overflow-x: none !important;
+  }
+  .Dine2 {
+    max-height: 72px;
+  }
+  .Dine3 {
+    max-height: 72px;
+  }
+
+  .Mahamahal {
+    font-size: 10px;
+  }
+  .Lithosphere {
+    font-size: 7px;
+  }
+  .Massala {
+    font-size: 7px;
+  }
+
+  .CardTextmenu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 6px !important;
+    color: #838383;
+    margin-top: -13px !important;
+  }
+  .CardTextkm {
+    display: flex;
+    justify-content: space-between;
+    font-size: 6px !important;
+    color: #838383;
+    margin-top: -13px !important;
+  }
+  .CardText3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 5px !important;
+    color: #838383;
+  }
+  .CardText4 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 5px !important;
+    color: #838383;
+  }
+
+  .Delimginner {
+    margin-top: 38px !important;
+    margin-left: -7px;
+    color: #f4d9a8;
+    font-size: 7px !important;
+    max-width: 80px;
+  }
+
+  .Deltextinner {
+    color: #256fef;
+    font-size: 5px !important;
+    margin-top: -10px !important;
+  }
+  .GOLD1 {
+    max-height: 9px !important;
+  }
+  button[id="Sortbtn"] {
+    margin-top: -40px !important;
+    margin-left: 360px !important;
+    position: absolute;
+    max-width: 30px;
+    max-height: 30px;
+    font-size: 25px !important;
+  }
+  .Collections {
+    font-size: 11px;
+    text-align: left;
+  }
+  .Card2 {
+    border: none;
+    padding: 2px !important;
+  }
 }

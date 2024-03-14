@@ -73,7 +73,7 @@ export default function Dinningout() {
               <div class="carousel-inner container">
                 <div class="carousel-item active">
                   <div className="class-wrapper">
-                    <div class="card">
+                    <div class="card Card2">
                       <div className="image-wrapper">
                         <img
                           src={NEWRES}
@@ -92,7 +92,7 @@ export default function Dinningout() {
                         </h6>
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card Card2">
                       <div className="image-wrapper">
                         <img
                           src={MINAR}
@@ -111,7 +111,7 @@ export default function Dinningout() {
                         </h6>
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card Card2">
                       <div className="image-wrapper">
                         <img
                           src={SALAD}
@@ -130,7 +130,7 @@ export default function Dinningout() {
                         </h6>
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card Card2">
                       <div className="image-wrapper">
                         <img
                           src={THALI}
@@ -153,7 +153,7 @@ export default function Dinningout() {
                 </div>
                 <div class="carousel-item">
                   <div className="class-wrapper">
-                    <div class="card">
+                    <div class="card Card2">
                       <div className="image-wrapper">
                         <img
                           src={OMLET}
@@ -172,7 +172,7 @@ export default function Dinningout() {
                         </h6>
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card Card2">
                       <img
                         src={BROKI}
                         class="card-img-top card-img-top "
@@ -190,7 +190,7 @@ export default function Dinningout() {
                         </h6>
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card Card2">
                       <div className="image-wrapper">
                         <img
                           src={PIZZA}
@@ -210,7 +210,7 @@ export default function Dinningout() {
                       </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card Card2">
                       <img
                         src={TABLE}
                         class="card-img-top Table card-img-top"
@@ -287,8 +287,8 @@ export default function Dinningout() {
         <h3>Trending dining restaurants in Ahmedabad</h3>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
-          <img src={DINE1} class="card-img-top" alt="..." />
+        <div class="card Carddinning1 Card2">
+          <img src={DINE1} class="card-img-top Dine2" alt="..." />
           <div class="card-body ">
             <div class="card-title Titledinning">
               <p className="Mahamahal"> Mahamahal</p>
@@ -309,7 +309,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2 Card2">
           <img src={DINE2} class="card-img-top Dine2" alt="..." />
           <div class="card-body ">
             <div class="card-title Titledinning">
@@ -330,7 +330,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2 Card2">
           <img src={DINE3} class="card-img-top Dine3" alt="..." />
           <div class="card-img-overlay">
             <h5 class="card-title Textinner">Promoted</h5>
@@ -362,7 +362,7 @@ export default function Dinningout() {
         </div>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2 Card2">
           <img src={DINE4} class="card-img-top" alt="..." />
           <div class="card-img-overlay">
             <h5 class="card-title Textinner">Promoted</h5>
@@ -392,7 +392,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2 Card2">
           <img src={DINE5} class="card-img-top Dine2" alt="..." />
           <div class="card-img-overlay">
             <h5 class="card-title Textinner">Promoted</h5>
@@ -422,7 +422,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2 Card2">
           <img src={DINE6} class="card-img-top Dine3" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -453,7 +453,7 @@ export default function Dinningout() {
         </div>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE7} class="card-img-top" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -481,7 +481,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE8} class="card-img-top Dine2" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -509,7 +509,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE9} class="card-img-top Dine3" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -539,7 +539,7 @@ export default function Dinningout() {
         </div>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE10} class="card-img-top Dine2" alt="..." />
           <div class="card-body ">
             <div class="card-title Titledinning">
@@ -560,7 +560,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE11} class="card-img-top Dine2" alt="..." />
           <div class="card-body ">
             <div class="card-title Titledinning">
@@ -581,7 +581,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE12} class="card-img-top Dine2" alt="..." />
           <div class="card-body ">
             <div class="card-title Titledinning">
@@ -604,7 +604,7 @@ export default function Dinningout() {
         </div>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE13} class="card-img-top Dine2" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -632,7 +632,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE14} class="card-img-top Dine2" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -660,7 +660,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE15} class="card-img-top Dine2" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -690,7 +690,7 @@ export default function Dinningout() {
         </div>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE16} class="card-img-top" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -719,7 +719,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE17} class="card-img-top Dine2" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -748,7 +748,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE18} class="card-img-top Dine3" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -779,7 +779,7 @@ export default function Dinningout() {
         </div>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE19} class="card-img-top Dine2" alt="..." />
           <div class="card-img-overlay">
             <h5 class="card-title Textinner">Promoted</h5>
@@ -803,7 +803,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE20} class="card-img-top Dine2" alt="..." />
           <div class="card-img-overlay">
             <h5 class="card-title Textinner">Promoted</h5>
@@ -832,7 +832,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE21} class="card-img-top Dine2" alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Imginner">
@@ -863,7 +863,7 @@ export default function Dinningout() {
         </div>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE22} class="card-img-top Dine2" alt="..." />
           <div class="card-body ">
             <div class="card-title Titledinning">
@@ -884,7 +884,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE23} class="card-img-top Dine2" alt="..." />
 
           <div class="card-body ">
@@ -906,7 +906,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE24} class="card-img-top Dine2" alt="..." />
 
           <div class="card-body ">
@@ -930,7 +930,7 @@ export default function Dinningout() {
         </div>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE25} class="card-img-top" alt="..." />
 
           <div class="card-body ">
@@ -953,7 +953,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE26} class="card-img-top Dine2" alt="..." />
 
           <div class="card-body ">
@@ -975,7 +975,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE27} class="card-img-top Dine3" alt="..." />
 
           <div class="card-body ">
@@ -1000,7 +1000,7 @@ export default function Dinningout() {
         </div>
       </div>
       <div className="container Dinning">
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE28} class="card-img-top Dine2" alt="..." />
 
           <div class="card-body ">
@@ -1022,7 +1022,7 @@ export default function Dinningout() {
             </p>
           </div>
         </div>
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE29} class="card-img-top Dine4" alt="..." />
 
           <div class="card-body ">
@@ -1046,7 +1046,7 @@ export default function Dinningout() {
           </div>
         </div>
 
-        <div class="card Carddinning1">
+        <div class="card Carddinning1 Card2">
           <img src={DINE30} class="card-img-top Dine3" alt="..." />
 
           <div class="card-body ">

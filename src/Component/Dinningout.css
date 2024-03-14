@@ -39,7 +39,6 @@
   margin-top: 40px;
   height: 80px;
   display: flex;
-
   z-index: 1;
   justify-content: center;
 }
@@ -168,6 +167,10 @@
     font-size: 11px;
     text-align: left;
   }
+  .Card2 {
+    border: none;
+    padding: 2px !important;
+  }
 }
 .Goldposter {
   width: 1280px;
@@ -274,4 +277,13 @@ button[id="Sortbtn"] {
 }
 .Collections1 {
   margin-top: 30px;
+}
+.Card2 {
+  border: none;
+  padding: 9px;
+}
+
+.Card2:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
 }

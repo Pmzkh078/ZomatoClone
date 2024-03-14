@@ -24,10 +24,40 @@ import SHAKTI from "../Deliveryasset/Shakti.avif";
 import FONWY from "../Deliveryasset/Foodonway.avif";
 import LMILA from "../Deliveryasset/Lamilano.avif";
 import JBHAV from "../Deliveryasset/Jaybhavani.avif";
+import MAX from "../Deliveryrestrauassets/Maxsafety.avif";
+import FTRUCK from "../Deliveryasset/9834.avif";
+import TPOST from "../Deliveryasset/TeaPost.avif";
+import SAFE from "../Deliveryrestrauassets/Safedelivery.webp";
 import DELV1 from "../Deliveryrestrauassets/Deliverey1.avif";
 import DELV2 from "../Deliveryrestrauassets/Delivery2.avif";
 import DELV3 from "../Deliveryrestrauassets/Delivery3.avif";
-import MAX from "../Deliveryrestrauassets/Maxsafety.avif";
+import DELV4 from "../Deliveryrestrauassets/Delivery4.avif";
+import DELV5 from "../Deliveryrestrauassets/Delivery5.avif";
+import DELV6 from "../Deliveryrestrauassets/Delivery6.avif";
+import DELV7 from "../Deliveryrestrauassets/Delivery7.avif";
+import DELV8 from "../Deliveryrestrauassets/Delivery8.avif";
+import DELV9 from "../Deliveryrestrauassets/Delivery9.avif";
+import DELV10 from "../Deliveryrestrauassets/Delivery10.avif";
+import DELV11 from "../Deliveryrestrauassets/Delivery11.avif";
+import DELV12 from "../Deliveryrestrauassets/Delivery12.avif";
+import DELV13 from "../Deliveryrestrauassets/Delivery13.avif";
+import DELV14 from "../Deliveryrestrauassets/Delivery14.avif";
+import DELV15 from "../Deliveryrestrauassets/Delivery15.avif";
+import DELV16 from "../Deliveryrestrauassets/Delivery16.avif";
+import DELV17 from "../Deliveryrestrauassets/Delivery17.avif";
+import DELV18 from "../Deliveryrestrauassets/Delivery18.avif";
+import DELV19 from "../Deliveryrestrauassets/Delivery19.avif";
+import DELV20 from "../Deliveryrestrauassets/Delivery20.avif";
+import DELV21 from "../Deliveryrestrauassets/Delivery21.webp";
+import DELV22 from "../Deliveryrestrauassets/Delivery22.avif";
+import DELV23 from "../Deliveryrestrauassets/Delivery23.avif";
+import DELV24 from "../Deliveryrestrauassets/Delivery24.avif";
+import DELV25 from "../Deliveryrestrauassets/Delivery25.avif";
+import DELV26 from "../Deliveryrestrauassets/Delivery26.avif";
+import DELV27 from "../Deliveryrestrauassets/Delivery27.avif";
+import DELV28 from "../Deliveryrestrauassets/Delivery28.avif";
+import DELV29 from "../Deliveryrestrauassets/Delivery29.avif";
+import DELV30 from "../Deliveryrestrauassets/Delivery30.avif";
 export default function Delivery() {
   return (
     <div>
@@ -301,10 +331,10 @@ export default function Delivery() {
           </div>
           <div class="carousel-item " data-bs-interval="2000">
             <div class="row row-cols-1 row-cols-md-8 g-6">
-              <div className="Roundslide2">
+              <div className="Roundslider">
                 <div className="body">
                   <img
-                    src={HONEST}
+                    src={MACD}
                     class="card-img-top Roundsliderimg"
                     alt="..."
                   />
@@ -340,6 +370,24 @@ export default function Delivery() {
                   <h5 class="card-title CardTitle">La Milano Pizzeria</h5>
                   <p class="card-text CardTitle">25 min</p>
                 </div>
+                <div className="body">
+                  <img
+                    src={FTRUCK}
+                    class="card-img-top Roundsliderimg"
+                    alt="..."
+                  />
+                  <h5 class="card-title CardTitle">9834 The Fruit Truck</h5>
+                  <p class="card-text CardTitle">20 min</p>
+                </div>
+                <div className="body">
+                  <img
+                    src={TPOST}
+                    class="card-img-top Roundsliderimg"
+                    alt="..."
+                  />
+                  <h5 class="card-title CardTitle">Tea Post</h5>
+                  <p class="card-text CardTitle">31 min</p>
+                </div>
               </div>
             </div>
           </div>
@@ -365,28 +413,35 @@ export default function Delivery() {
       </div>
 
       {/* -------Section 3---------- */}
-      <div className="container Trendrestro">
-        <h3>Trending dining restaurants in Ahmedabad</h3>
+      <div className="container">
+        <h3>Delivery Restaurants in Ahmedabad</h3>
       </div>
       <div className="container Delivery">
         <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
           <img src={DELV1} class="card-img-top Deli3" alt="..." />
           <div class="card-body ">
             <div class="card-title  Titledinning">
               <p className="Delismall">La Pino'z Pizza</p>
-              <p className="New">
-                4.1<i class="fa fa-star Star" aria-hidden="true"></i>
+              <p className="Newstar">
+                4.1<i class="fa fa-star Delstar" aria-hidden="true"></i>
               </p>
             </div>
             <p class="card-text CardTextmenu">
               Pizza,Pasta,It...
               <p>
-                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
               </p>
             </p>
           </div>
           <p class="card-text CardTextkm">
-            <p>6.2 km</p>
+            <p>19 min</p>
           </p>
           <h1 className="Hrline">
             <hr></hr>
@@ -395,58 +450,1044 @@ export default function Delivery() {
           <div class="card-text CardTextimg">
             <img className="Maxsafety" src={MAX}></img>
             <p className="Maxsafetytext">
-              Follows all Max Safety measures to ensure your food is same.
+              Follows all Max Safety measures to ensure your food is safe.
             </p>
           </div>
         </div>
-        <div class="card Card1 Carddinning1">
-          <img src={DELV2} class="card-img-top Dine2" alt="..." />
-          <div class="card-body ">
-            <div class="card-title Titledinning">
-              <p className="Massala">Massala Theoryy</p>
-              <p className="New">
-                4.2<i class="fa fa-star Star" aria-hidden="true"></i>
-              </p>
-            </div>
-            <p class="card-text CardText2">
-              North Indian,Mughlai,Chi..
-              <p>
-                <i class="fa fa-inr Inr" aria-hidden="true"></i>500 for Two
-              </p>
-            </p>
-            <p class="card-text CardText4">
-              Bodakdev,Ahmedabad
-              <p>5.6 km</p>
-            </p>
-          </div>
-        </div>
-        <div class="card Card1 Carddinning1">
-          <img src={DELV3} class="card-img-top Dine3" alt="..." />
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV2} class="card-img-top Deli3" alt="..." />
           <div class="card-img-overlay">
-            <h5 class="card-title Textinner">Promoted</h5>
-            <p class="card-text Imginner">
+            <p class="card-text Delimginner1">
               <big>
-                <img className="GOLD1" src=""></img> Flat 10% Off
+                <img className="BLUE1" src=""></img> 50% OFF
               </big>
             </p>
           </div>
           <div class="card-body ">
-            <div class="card-title Titledinning">
-              <p className="Lithosphere">Lithosphere By Upper Crust</p>
-              <p className="New">
-                4.4<i class="fa fa-star Star" aria-hidden="true"></i>
+            <div class="card-title  Titledinning">
+              <p className="Delismall">McDonald's</p>
+              <p className="Newstar">
+                4.1<i class="fa fa-star Delstar" aria-hidden="true"></i>
               </p>
             </div>
-            <p class="card-text CardText2">
-              Modern Indian,Asian..
+            <p class="card-text CardTextmenu">
+              Burger,Fast Food,De...
               <p>
-                <i class="fa fa-inr Inr" aria-hidden="true"></i>1,800 for Two
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
               </p>
             </p>
-            <p class="card-text CardText3">Bodakdev,Ahmedabad</p>
-            <p class="card-text CardText2">
-              <p style={{ color: "#C95A62" }}>Closes in 21 minutes</p>
-              <p>6.2 km</p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>14 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV3} class="card-img-top Deli3" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title Deltextinner ">Promoted</h5>
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">shreejikrupa</p>
+              <p className="Newstar">
+                4.2<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Sandwich,Fast Food,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>20 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="safety" src={SAFE}></img>
+            <p className="Maxsafetytext">
+              Restaurant partner follows WHO protocol
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container Delivery">
+        <div class="card Card1 Cardelivery2">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV4} class="card-img-top Deli3" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title Deltextinner ">Promoted</h5>
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 20% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Hocco Eatery</p>
+              <p className="Newstar">
+                4.2<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Pizza,Fast Food,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>22 min</p>
+          </p>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV5} class="card-img-top Deli3" alt="..." />
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Burger King</p>
+              <p className="Newstar">
+                3.7<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Burger,Fast Food,De...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for Two
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>25 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV6} class="card-img-top Dine3" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title Deltextinner ">Promoted</h5>
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delimid">La Milano Pizzeria</p>
+              <p className="Newstar">
+                4.0<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Pizza,Pasta,It..
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>24 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container Delivery">
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV7} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Das Khaman</p>
+              <p className="Newstar">
+                4.3<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Gujarati,Street Food,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>11 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV8} class="card-img-top Deli4" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title Deltextinner ">Promoted</h5>
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delilarge">Gwalia Sweets & Fast Food</p>
+              <p className="Newstar">
+                4.2<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Mithai,Street Food,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>15 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV9} class="card-img-top Deli4" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title Deltextinner ">Promoted</h5>
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delimid">Jugaadi Adda</p>
+              <p className="Newstar">
+                3.6<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Maharashtrian,Stre..
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>50 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>21 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container Delivery">
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img>40% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV10} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Jay Jalaram Parotha House</p>
+              <p className="Newstar">
+                3.6<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Gujarati,North Indian,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>50 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>23 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV11} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Ladli Restaurant</p>
+              <p className="Newstar">
+                3.6<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              North Indian,Street Food,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text">
+            <p className="CardTextkm">27 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img> 10% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV12} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">City Corner</p>
+              <p className="Newstar">
+                4.2<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Fast Food,Chinese...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>50 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>38 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container Delivery">
+        <div class="card Card1 Cardelivery2">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV13} class="card-img-top Deli3" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title Deltextinner ">Promoted</h5>
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img>50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Bole To Vadapav</p>
+              <p className="Newstar">
+                4.4<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Maharashtrian,Stre...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>50 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>29 min</p>
+          </p>
+        </div>
+        <div class="card Card1 Cardelivery2">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV14} class="card-img-top Deli5" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title Deltextinner ">Promoted</h5>
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 20% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">The Lio' Pizza</p>
+              <p className="Newstar">
+                3.9<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Pizza,Wraps,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>50 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>43 min</p>
+          </p>
+        </div>
+
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV15} class="card-img-top Dine3" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title Deltextinner ">Promoted</h5>
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delimid">Eat Punjab</p>
+              <p className="Newstar">
+                4.1<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              North Indian,Chinese,Mu..
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>50 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>34 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container Delivery">
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV16} class="card-img-top Dine3" alt="..." />
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delimid">Hotel Moti Mahal</p>
+              <p className="Newstar">
+                3.8<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              North Indian,Chinese,..
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>50 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>26 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+          <div class="card-text CardTextimg">
+            <img className="safety" src={SAFE}></img>
+            <p className="Maxsafetytext">
+              Restaurant partner follows WHO protocol
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery2">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV17} class="card-img-top Deli3" alt="..." />
+
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Wendy's Burgers</p>
+              <p className="Newstar">
+                4.1<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Burger,Fast Food,..
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>50 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>30 min</p>
+          </p>
+        </div>
+
+        <div class="card Card1 Cardelivery2">
+          <img src={DELV18} class="card-img-top Deli5" alt="..." />
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Farki</p>
+              <p className="Newstar">
+                4.6<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Beverages,Ice cream,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>50 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>15 min</p>
+          </p>
+        </div>
+      </div>
+      <div className="container Delivery">
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img>40% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV19} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Pizza Hut</p>
+              <p className="Newstar">
+                3.6<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Pizza,Pasta,It..
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>23 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV20} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Al Baik Fast Food</p>
+              <p className="Newstar">
+                4.2<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Shawarma,Pizza,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text">
+            <p className="CardTextkm">25 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img> 10% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV21} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">KFC</p>
+              <p className="Newstar">
+                3.7<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Burger,Fast Food...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>19 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container Delivery">
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV22} class="card-img-top Dine3" alt="..." />
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 30% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delimid">Shiva,s Coffee Bar & Snacks</p>
+              <p className="Newstar">
+                3.9<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Fast Food,Str..
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>100 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>38 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+          <div class="card-text CardTextimg">
+            <img className="safety" src={SAFE}></img>
+            <p className="Maxsafetytext">
+              Restaurant partner follows WHO protocol
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV23} class="card-img-top Dine3" alt="..." />
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delimid">Food On Way</p>
+              <p className="Newstar">
+                3.9<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              North Indian,Chinese,..
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>100 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>30 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+          <div class="card-text CardTextimg">
+            <img className="safety" src={SAFE}></img>
+            <p className="Maxsafetytext">
+              Restaurant partner follows WHO protocol
+            </p>
+          </div>
+        </div>
+
+        <div class="card Card1 Cardelivery2">
+          <img src={DELV24} class="card-img-top " alt="..." />
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Dangee Dums</p>
+              <p className="Newstar">
+                4.0<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Beverages,Ice cream,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>100 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>13 min</p>
+          </p>
+        </div>
+      </div>
+      <div className="container Delivery">
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img>40% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV25} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Live Cake Company</p>
+              <p className="Newstar">
+                3.8<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Bakery
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>250 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>33 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img> 20% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV26} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Baked By Nini's</p>
+              <p className="Newstar">
+                4.2<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Bakery,Desert,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>250 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text">
+            <p className="CardTextkm">13 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+        <div class="card Card1 Cardelivery1">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1"></img> 10% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV27} class="card-img-top Deli4" alt="..." />
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Jasdi De Parathe</p>
+              <p className="Newstar">
+                4.3<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Kebab,North Indian,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for one
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>33 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+
+          <div class="card-text CardTextimg">
+            <img className="Maxsafety" src={MAX}></img>
+            <p className="Maxsafetytext">
+              Follows all Max Safety measures to ensure your food is safe.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container Delivery">
+        <div class="card Card1 Cardelivery2">
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner1">
+              <big>
+                <img className="BLUE1" src=""></img> 30% OFF
+              </big>
+            </p>
+          </div>
+          <img src={DELV28} class="card-img-top Deli3" alt="..." />
+
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Standard's Punjabi</p>
+              <p className="Newstar">
+                3.5<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Gujarati,North Indian,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>43 min</p>
+          </p>
+        </div>
+        <div class="card Card1 Cardelivery2">
+          <img src={DELV29} class="card-img-top Deli5" alt="..." />
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 50% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delismall">Taco Bell</p>
+              <p className="Newstar">
+                3.6<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Mexican,Wraps,...
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>27 min</p>
+          </p>
+        </div>
+
+        <div class="card Card1 Cardelivery1">
+          <img src={DELV30} class="card-img-top Dine3" alt="..." />
+          <div class="card-img-overlay">
+            <p class="card-text Delimginner">
+              <big>
+                <img className="BLUE1" src=""></img> 30% OFF
+              </big>
+            </p>
+          </div>
+          <div class="card-body ">
+            <div class="card-title  Titledinning">
+              <p className="Delimid">NIC Ice Creams</p>
+              <p className="Newstar">
+                4.4<i class="fa fa-star Delstar" aria-hidden="true"></i>
+              </p>
+            </div>
+            <p class="card-text CardTextmenu">
+              Ice Cream,Desert,..
+              <p>
+                <i class="fa fa-inr Inr" aria-hidden="true"></i>200 for One
+              </p>
+            </p>
+          </div>
+          <p class="card-text CardTextkm">
+            <p>22 min</p>
+          </p>
+          <h1 className="Hrline">
+            <hr></hr>
+          </h1>
+          <div class="card-text CardTextimg">
+            <img className="safety" src={SAFE}></img>
+            <p className="Maxsafetytext">
+              Restaurant partner follows WHO protocol
             </p>
           </div>
         </div>

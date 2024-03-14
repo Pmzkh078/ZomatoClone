@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.css";
-
+import { NavLink } from "react-router-dom";
 export default function Login() {
   return (
     <div className="Body">
@@ -36,7 +36,10 @@ export default function Login() {
               <h6 style={{ color: "grey", marginTop: "20px" }}>
                 New to Zomato?
                 <a>
-                  <span style={{ color: "red" }}>Signup</span>
+                  <NavLink style={{ textDecoration: "none" }} to="/Log1">
+                    {" "}
+                    <span style={{ color: "rgb(239, 79, 95)" }}>Sign up</span>
+                  </NavLink>
                 </a>
               </h6>
             </form>

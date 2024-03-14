@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Signup.css";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 export default function Signup() {
   const [isChecked, setIsChecked] = useState(false);
 
@@ -77,7 +77,10 @@ export default function Signup() {
           <h6 style={{ color: "grey", marginTop: "20px" }}>
             Already have an account?
             <a>
-              <span style={{ color: "rgb(239, 79, 95)" }}>Log in</span>
+              <NavLink style={{ textDecoration: "none" }} to="/Sin1">
+                {" "}
+                <span style={{ color: "rgb(239, 79, 95)" }}>Log in</span>
+              </NavLink>
             </a>
           </h6>
         </form>
