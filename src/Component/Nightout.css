@@ -1,0 +1,102 @@
+.ImgOverlay {
+  margin-top: 270px;
+  color: white;
+}
+
+.NightoutImg {
+  height: 350px;
+}
+.CardText2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #838383;
+  margin-top: -18px;
+}
+.CardText4 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #838383;
+  margin-top: -24px;
+}
+.CardText3 {
+  font-size: 15px;
+  color: #838383;
+  margin-top: -32px;
+}
+.Nightoutrestrau {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: -1;
+}
+.CarNightout1 {
+  width: 320px;
+  height: 360px;
+}
+.Titlenightout {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.Star {
+  font-size: 10px;
+  margin-top: 6px;
+  color: #3ab757;
+}
+.Nightoutstar {
+  color: #3ab757;
+  border: 1px solid #3ab757;
+  background-color: #ebffef;
+  border-radius: 6px;
+  width: 50px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Nightoutstar1 {
+  background-color: #9c9c9c;
+  color: white;
+  border-radius: 6px;
+  width: 40px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.gryStar {
+  font-size: 10px;
+  margin-top: 8px;
+  color: white;
+}
+.Engimg {
+  height: 120px;
+  width: 120px;
+}
+.Endsection {
+  margin-top: 60px;
+}
+.Sresult {
+  margin-top: 50px;
+  text-align: right;
+}
+.Accordian {
+  margin: 50px;
+}
+.Accordian1 {
+  outline: none;
+}
+.Accordian1:hover {
+  background-color: none;
+}
+.AccordianBody {
+  color: #909090;
+  font-size: 20px;
+}
+.Dot {
+  font-size: 40px;
+  padding: 3px;
+  text-align: left;
+}
+.table {
+  width: 1200px;
+}

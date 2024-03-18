@@ -93,7 +93,7 @@ export default function Nav2() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="Navbarlink1" to="">
+                <NavLink className="Navbarlink1" to="/nightout">
                   <img
                     className=" DinningOutImage "
                     src={NIGHTLIFE}

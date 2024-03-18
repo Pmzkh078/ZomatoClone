@@ -4,6 +4,7 @@ import Signup from "./Signup";
 import Login from "./Login";
 import Nav from "./Nav";
 
+
 export default function Mianroutes() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function Mianroutes() {
         <Route path="/signup" element={<Signup />}></Route>
         <Route path="/login" element={<Login />}></Route>
       </Routes>
+     
     </div>
   );
 }

@@ -7,7 +7,6 @@ export default function Login() {
       <div className="container text-center">
         <div className="row">
           <div className="col-3 mx-auto">
-            {" "}
             <form>
               <div className="mb-3">
                 <h2>Login</h2>
@@ -37,7 +36,6 @@ export default function Login() {
                 New to Zomato?
                 <a>
                   <NavLink style={{ textDecoration: "none" }} to="/Log1">
-                    {" "}
                     <span style={{ color: "rgb(239, 79, 95)" }}>Sign up</span>
                   </NavLink>
                 </a>
