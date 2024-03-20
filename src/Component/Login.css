@@ -2,18 +2,6 @@ body {
   margin: 0;
 }
 
-.Body {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: linear-gradient(rgba(2, 2, 2, 0.9), rgba(2, 2, 2, 0.9)),
-    url("D:\react\mega\src\assets\product\Screenshot_25-2-2024_193430_www.zomato.com.jpeg");
-  height: 1000px; /* Use viewport height to cover the entire screen */
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 form {
   position: fixed;
   top: 50%;
@@ -52,4 +40,12 @@ button[id="Googlemobile"] {
 
 i {
   color: rgb(239, 79, 95);
+}
+.Close {
+  display: flex;
+  justify-content: space-between;
+}
+.Cross {
+  color: black;
+  font-size: 25px;
 }

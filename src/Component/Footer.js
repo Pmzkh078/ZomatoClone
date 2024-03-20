@@ -1,8 +1,10 @@
 import React from "react";
-
+import "./Footer.css";
+import FOOTER from "../Nightoutasset/FOOTER.webp";
+import FOOTER1 from "../Nightoutasset/FOOTER1.webp";
 export default function Footer() {
   return (
-    <div>
+    <div className="FOOTERMAIN">
       <div
         class="container accordion accordion-flush"
         id="accordionFlushExample"
@@ -50,7 +52,7 @@ export default function Footer() {
         </div>
 
         <div class=" Accordian">
-          <h2 class="accordion-header">
+          <h2 class="accordion-header ">
             <button
               class="accordion-button collapsed"
               type="button"
@@ -178,127 +180,154 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
       <div class="container text-center">
         <div class="row">
           <div class="col">
             <footer class="pt-4 my-md-5 pt-md-5 border-top">
               <div class="row">
                 <div class="col-6 col-md">
-                  <h5>Features</h5>
+                  <h5 className="Footertext">ABOUT ZOMATO</h5>
                   <ul class="list-unstyled text-small">
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Cool stuff
+                        Who We Are
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Random feature
+                        Blog
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Team feature
+                        Work With Us
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Stuff for developers
+                        Investor Relations
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Another one
+                        Report Fraud
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Last time
+                        Press Kit
+                      </a>
+                    </li>
+                    <li className="Footertext">
+                      <a class="link-secondary text-decoration-none" href="#">
+                        Contact Us
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="col-6 col-md">
-                  <h5>Features</h5>
+                  <h5 className="Footertext">ZOMAVERSE</h5>
                   <ul class="list-unstyled text-small">
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Cool stuff
+                        Zomato
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Random feature
+                        Blinkit
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Team feature
+                        Feeding india
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Stuff for developers
+                        Hyperpure
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Another one
-                      </a>
-                    </li>
-                    <li class="mb-1">
-                      <a class="link-secondary text-decoration-none" href="#">
-                        Last time
+                        Zomaland
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="col-6 col-md">
-                  <h5>Resources</h5>
+                  <h5 className="Footertext">FOR RESTAURANTS</h5>
                   <ul class="list-unstyled text-small">
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Resource
+                        Partner With Us
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
-                        Resource name
-                      </a>
-                    </li>
-                    <li class="mb-1">
-                      <a class="link-secondary text-decoration-none" href="#">
-                        Another resource
-                      </a>
-                    </li>
-                    <li class="mb-1">
-                      <a class="link-secondary text-decoration-none" href="#">
-                        Final resource
+                        Apps For You
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="col-6 col-md">
-                  <h5>About</h5>
+                  <h5 className="Footertext">LEARN MORE</h5>
                   <ul class="list-unstyled text-small">
-                    <li class="mb-1">
-                      <a class="link-secondary text-decoration-none" href="#">
-                        Team
-                      </a>
-                    </li>
-                    <li class="mb-1">
-                      <a class="link-secondary text-decoration-none" href="#">
-                        Locations
-                      </a>
-                    </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
                         Privacy
                       </a>
                     </li>
-                    <li class="mb-1">
+                    <li className="Footertext">
+                      <a class="link-secondary text-decoration-none" href="#">
+                        Security
+                      </a>
+                    </li>
+                    <li className="Footertext">
                       <a class="link-secondary text-decoration-none" href="#">
                         Terms
+                      </a>
+                    </li>
+                    <li className="Footertext">
+                      <a class="link-secondary text-decoration-none" href="#">
+                        Sitemap
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md">
+                  <h5 className="Footertext">SOCIAL LINKS</h5>
+                  <ul class="list-unstyled text-small">
+                    <li className="Footertext">
+                      <a
+                        class="link-secondary text-decoration-none Social"
+                        href="#"
+                      >
+                        <i
+                          class="fa fa-linkedin-square Insta"
+                          aria-hidden="true"
+                        ></i>
+                        <i class="fa fa-instagram Insta" aria-hidden="true"></i>
+                        <i
+                          class="fa fa-twitter-square Insta"
+                          aria-hidden="true"
+                        ></i>
+                        <i class="fa fa-facebook Insta" aria-hidden="true"></i>
+                        <i
+                          class="fa fa-youtube-play Insta"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </li>
+                    <li className="Footertext">
+                      <a class="link-secondary text-decoration-none" href="#">
+                        <img className="Apple" src={FOOTER}></img>
+                      </a>
+                    </li>
+                    <li className="Footertext">
+                      <a class="link-secondary text-decoration-none" href="#">
+                        <img className="Playstore" src={FOOTER1}></img>
                       </a>
                     </li>
                   </ul>

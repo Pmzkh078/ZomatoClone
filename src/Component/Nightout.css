@@ -79,24 +79,55 @@
   margin-top: 50px;
   text-align: right;
 }
-.Accordian {
-  margin: 50px;
+.Goldnightout {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  margin-top: 40px;
+  height: 80px;
+  display: flex;
+  z-index: 1;
+  justify-content: start;
 }
-.Accordian1 {
-  outline: none;
+.Goldbtnnout {
+  width: 100px;
+  height: 45px;
+  font-size: 13px;
 }
-.Accordian1:hover {
-  background-color: none;
-}
-.AccordianBody {
-  color: #909090;
-  font-size: 20px;
-}
-.Dot {
-  font-size: 40px;
-  padding: 3px;
-  text-align: left;
-}
-.table {
-  width: 1200px;
+@media screen and (max-width: 400px) {
+  .Nightoutstar {
+    max-width: 30px;
+    max-height: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 9px !important;
+    margin-left: 5px;
+    padding-left: 2px !important;
+  }
+  .Nightoutstar1 {
+    max-width: 30px;
+    max-height: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 9px !important;
+    margin-left: 5px;
+    padding-left: 2px !important;
+  }
+  .gryStar {
+    font-size: 6px !important;
+    margin-top: 4px !important;
+  }
+  .CarNightout1 {
+    max-width: 120px;
+    max-height: 180px;
+  }
+  .Sresult {
+    margin-top: 50px;
+    text-align: right;
+    font-size: 15px;
+  }
+  .Core1 {
+    max-height: 500px !important;
+  }
 }

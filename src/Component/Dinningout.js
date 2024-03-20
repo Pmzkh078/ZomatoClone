@@ -41,6 +41,7 @@ import DINE27 from "../assets/product/Dinning27.avif";
 import DINE28 from "../assets/product/Dinning28.avif";
 import DINE29 from "../assets/product/Dinning29.avif";
 import DINE30 from "../assets/product/Dinning30.avif";
+import Footer from "./Footer";
 export default function Dinningout() {
   return (
     <div>
@@ -1073,6 +1074,7 @@ export default function Dinningout() {
       <a href="#Collections">
         <button id="Sortbtn">^</button>
       </a>
+      <Footer/>
     </div>
   );
 }

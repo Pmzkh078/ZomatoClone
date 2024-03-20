@@ -10,7 +10,7 @@
   border: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
   .class-wrapper {
     height: 460px;
     display: flex;
@@ -67,7 +67,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
   .Dinning {
     display: flex;
     flex-direction: row;

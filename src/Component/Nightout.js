@@ -15,6 +15,7 @@ import NIT7 from "../Nightoutasset/Nightout1.avif";
 import NIT8 from "../Nightoutasset/Nightout2.avif";
 import NIT9 from "../Nightoutasset/Nightout3.avif";
 import NIT10 from "../Nightoutasset/Endnightout.avif";
+import Footer from "./Footer";
 
 export default function Nightout() {
   return (
@@ -44,7 +45,7 @@ export default function Nightout() {
       <div class="container">
         <div class="row">
           <div class="col">
-            <div id="carouselExample" class="carousel carousel-dark slide">
+            <div id="carouselExample" class="carousel carousel-dark slide ">
               <div class="carousel-inner container">
                 <div class="carousel-item active">
                   <div className="class-wrapper">
@@ -188,25 +189,21 @@ export default function Nightout() {
           </div>
         </div>
       </div>
-      <div className="container Gold ">
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
+      <div className="container  Goldnightout ">
+        <button type="button" class="btn btn-outline-secondary Goldbtnnout">
           <img style={{ height: "22px" }} src={TOGLE}></img>&nbsp;Filters
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
+        <button type="button" class="btn btn-outline-secondary Goldbtnnout">
           <img style={{ height: "22px" }} src={GOLD}></img>&nbsp;Gold
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
+        <button type="button" class="btn btn-outline-secondary Goldbtnnout">
           Rating: 4.0+
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
-          Outdoor Seating
-        </button>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
-          Open Now
+        <button type="button" class="btn btn-outline-secondary Goldbtnnout">
+          Pubs & Bars
         </button>
       </div>
       <div className="container">
@@ -293,7 +290,7 @@ export default function Nightout() {
         </div>
       </div>
 
-     
+      <Footer />
     </div>
   );
 }

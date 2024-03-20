@@ -1,0 +1,48 @@
+.Apple,
+.Playstore {
+  height: 40px;
+  width: 130px;
+  margin-top: 15px;
+}
+.Insta {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 2px;
+}
+.Footertext {
+  text-align: left;
+}
+
+.Accordian {
+  margin: 50px;
+}
+.Accordian1 {
+  outline: none;
+}
+.Accordian1:hover {
+  background-color: none;
+}
+.AccordianBody {
+  color: #909090;
+  font-size: 20px;
+}
+.Dot {
+  font-size: 40px;
+  padding: 3px;
+  text-align: left;
+}
+.table {
+  width: 1200px;
+}
+@media screen and (max-width:400px){
+    .AccordianBody {
+        color: #909090;
+        font-size: 10px;
+      }
+      .table {
+        max-width:10px !important;
+        margin: -80px !important;
+      }
+}

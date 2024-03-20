@@ -13,7 +13,12 @@ export default function Signup() {
       <div className="Form">
         <form>
           <div className="mb-3">
-            <h2>Signup</h2>
+            <h2 className="Close2">
+              Signup
+              <NavLink to="/dinning">
+                <i class="fa fa-times Cross" aria-hidden="true"></i>
+              </NavLink>
+            </h2>
             <input
               type="text"
               className="form-control"

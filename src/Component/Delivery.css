@@ -45,11 +45,12 @@ input[type="search"] {
 }
 @media screen and (max-width: 400px) {
   .DeliveryNavbutton {
-    width: 200px;
+    width: 100%;
     margin-top: 5px;
-    height: 40px;
+    height: 50px;
     margin-left: 4px;
   }
+
   .DeliveryBtn {
     width: 90px;
     height: 40px;
@@ -124,11 +125,16 @@ input[type="search"] {
     max-height: 72px !important;
   }
 
+  .Maxsafetytext {
+    font-size: 5px !important;
+    margin-top: -12px;
+  }
   .Delismall {
     font-size: 10px;
   }
   .Delilarge {
-    font-size: 7px;
+    font-size: 6px;
+    width: 100px;
   }
   .Delimid {
     font-size: 7px;
@@ -136,6 +142,97 @@ input[type="search"] {
   .card {
     border: none;
     padding: none;
+  }
+  .CardTextimg {
+    display: flex;
+    justify-content: space-between;
+    color: #838383;
+    margin-top: 0px;
+  }
+  .Maxsafetytext {
+    font-size: 5px !important;
+    margin-top: -1px;
+  }
+  .Newstar {
+    max-width: 30px;
+    max-height: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 9px !important;
+    margin-left: 5px;
+    padding-left: 2px !important;
+  }
+  .Delstar {
+    font-size: 6px !important;
+    margin-top: 4px !important;
+  }
+  .Cardelivery1 {
+    max-height: 200px !important;
+  }
+  .Cardelivery2 {
+    max-width: 320px;
+    max-height: 160px;
+  }
+  .safety {
+    max-height: 10px;
+    max-width: 30px;
+    margin-right: 20px;
+    margin-top: -7px;
+  }
+  .Maxsafety {
+    max-height: 10px;
+    max-width: 22px;
+    margin-right: 20px;
+    margin-top: -7px;
+  }
+  .CardTextmenu {
+    font-size: 5px !important;
+    color: #838383;
+    margin-top: -18px;
+  }
+  .BLUE1 {
+    font-size: 5px !important;
+  }
+  .Delimginner {
+    margin-top: 34px !important;
+    color: white;
+    background: #256fef;
+    max-width: 40px;
+    max-height: 10px;
+    font-size: 5px !important;
+  }
+  .Delimginner1 {
+    margin-top: 46px !important;
+    color: white;
+    background: #256fef;
+    max-width: 40px;
+    max-height: 10px;
+    font-size: 5px !important;
+  }
+  /* .Deli3 {
+    max-height: 228px !important;
+  } */
+  .Deli4 {
+    max-height: 70px !important;
+  }
+  .Deli5 {
+    max-height: 72px !important;
+  }
+  .Deli6 {
+    height: 220px;
+  }
+  .CardTextkm {
+    font-size: 7px !important;
+    margin-top: -30px !important;
+    padding-right: 20px;
+  }
+  .Card1 {
+    border: none;
+    padding: 4px !important;
+  }
+  .Deltextinner {
+    font-size: 6px !important;
+    margin-top: -5px !important;
   }
 }
 .Slide1 {
@@ -223,7 +320,12 @@ input[type="search"] {
 .Deli6 {
   height: 220px;
 }
-
+.Deli7 {
+  height: 280px;
+}
+.Deli8 {
+  height: 280px;
+}
 .CardTextmenu {
   display: flex;
   justify-content: space-between;
@@ -330,7 +432,7 @@ input[type="search"] {
   color: white;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .Dinning {
     display: flex;
     flex-direction: row;
@@ -371,25 +473,9 @@ input[type="search"] {
     font-size: 6px !important;
     margin-top: 4px !important;
   }
-  body {
-    overflow-x: none !important;
-  }
-  .Dine2 {
-    max-height: 72px;
-  }
-  .Dine3 {
-    max-height: 72px;
-  }
 
-  .Mahamahal {
-    font-size: 10px;
-  }
-  .Lithosphere {
-    font-size: 7px;
-  }
-  .Massala {
-    font-size: 7px;
-  }
+
+
 
   .CardTextmenu {
     display: flex;
@@ -400,23 +486,17 @@ input[type="search"] {
   }
   .CardTextkm {
     display: flex;
-    justify-content: space-between;
+    justify-content:end;
     font-size: 6px !important;
     color: #838383;
-    margin-top: -13px !important;
   }
-  .CardText3 {
+  .CardTextkm2 {
     display: flex;
-    justify-content: space-between;
-    font-size: 5px !important;
+    justify-content:end;
+    font-size: 6px !important;
     color: #838383;
   }
-  .CardText4 {
-    display: flex;
-    justify-content: space-between;
-    font-size: 5px !important;
-    color: #838383;
-  }
+
 
   .Delimginner {
     margin-top: 38px !important;
@@ -442,12 +522,9 @@ input[type="search"] {
     max-height: 30px;
     font-size: 25px !important;
   }
-  .Collections {
-    font-size: 11px;
-    text-align: left;
-  }
+
   .Card2 {
     border: none;
     padding: 2px !important;
   }
-}
+} */

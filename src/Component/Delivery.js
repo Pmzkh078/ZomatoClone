@@ -58,6 +58,7 @@ import DELV27 from "../Deliveryrestrauassets/Delivery27.avif";
 import DELV28 from "../Deliveryrestrauassets/Delivery28.avif";
 import DELV29 from "../Deliveryrestrauassets/Delivery29.avif";
 import DELV30 from "../Deliveryrestrauassets/Delivery30.avif";
+import Footer from "./Footer";
 export default function Delivery() {
   return (
     <div>
@@ -120,12 +121,12 @@ export default function Delivery() {
           </ul>
         </div>
       </div>
-      <div className="container Brandslider">
+      <div id="Collections1" className="container Brandslider">
         <h2>Inspiration for your first order</h2>
       </div>
       <div
         id="carouselExampleDark"
-        class="carousel carousel-dark slide container"
+        class="carousel carousel-dark slide container  "
       >
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
@@ -428,7 +429,7 @@ export default function Delivery() {
           <img src={DELV1} class="card-img-top Deli3" alt="..." />
           <div class="card-body ">
             <div class="card-title  Titledinning">
-              <p className="Delismall">La Pino'z Pizza</p>
+              <p className="Delilarge ">La Pino'z Pizza</p>
               <p className="Newstar">
                 4.1<i class="fa fa-star Delstar" aria-hidden="true"></i>
               </p>
@@ -567,7 +568,7 @@ export default function Delivery() {
           </p>
         </div>
         <div class="card Card1 Cardelivery1">
-          <img src={DELV5} class="card-img-top Deli3" alt="..." />
+          <img src={DELV5} class="card-img-top Deli8 " alt="..." />
           <div class="card-img-overlay">
             <p class="card-text Delimginner1">
               <big>
@@ -604,7 +605,7 @@ export default function Delivery() {
           </div>
         </div>
         <div class="card Card1 Cardelivery1">
-          <img src={DELV6} class="card-img-top Dine3" alt="..." />
+          <img src={DELV6} class="card-img-top Deli7" alt="..." />
           <div class="card-img-overlay">
             <h5 class="card-title Deltextinner ">Promoted</h5>
             <p class="card-text Delimginner">
@@ -1492,6 +1493,10 @@ export default function Delivery() {
           </div>
         </div>
       </div>
+      <a href="#Collections1">
+        <button id="Sortbtn">^</button>
+      </a>
+      <Footer />
     </div>
   );
 }
