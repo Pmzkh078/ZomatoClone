@@ -260,24 +260,24 @@ export default function Dinningout() {
           </div>
         </div>
       </div>
-      <div className="container Gold ">
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
+      <div className="container  Goldnightout ">
+        <button type="button" class="btn btn-outline-secondary Goldbtnnout">
           <img style={{ height: "22px" }} src={TOGLE}></img>&nbsp;Filters
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
+        <button type="button" class="btn btn-outline-secondary Goldbtnnout">
           <img style={{ height: "22px" }} src={GOLD}></img>&nbsp;Gold
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
+        <button type="button" class="btn btn-outline-secondary Goldbtnnout">
           Rating: 4.0+
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
+        <button type="button" class="btn btn-outline-secondary Goldbtnnout">
           Outdoor Seating
         </button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <button type="button" class="btn btn-outline-secondary Goldbtn">
+        <button type="button" class="btn btn-outline-secondary Goldbtnnout">
           Open Now
         </button>
       </div>
@@ -1074,7 +1074,7 @@ export default function Dinningout() {
       <a href="#Collections">
         <button id="Sortbtn">^</button>
       </a>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

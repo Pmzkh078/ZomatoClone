@@ -1,17 +1,57 @@
 import React, { useState } from "react";
 import "./Signup.css";
 import { NavLink } from "react-router-dom";
+
 export default function Signup() {
   const [isChecked, setIsChecked] = useState(false);
 
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
   };
+  const [email, setEmail] = useState("");
+  const [name1, setName1] = useState("");
+  const [name1Error, setName1Error] = useState("");
+  const [emailError, setEmailError] = useState("");
+
+  const [loginSuccess, setLoginSuccess] = useState(false);
+  function inputChange1(e) {
+    const { name, value } = e.target;
+    if (name === "email") {
+      setEmail(value);
+      setEmailError(""); // Clear previous error when input changes
+    } else if (name === "Name") {
+      setName1(value);
+      setName1Error(""); // Clear previous error when input changes
+    }
+  }
+
+  function handleSubmit1(e) {
+    e.preventDefault();
+
+    // Email validation
+    if (email === "") {
+      setEmailError("Email is required");
+    } else if (email !== "patelpratikh98@gmail.com") {
+      setEmailError("Email is wrong");
+    }
+
+    // Name validation
+    if (name1 === "") {
+      setName1Error("Name is required");
+    }
+
+    // Check if both email and name are valid before setting login success
+    if (email === "patelpratikh98@gmail.com" && name1 !== "") {
+      setLoginSuccess(true);
+
+      alert("Signup success now you can login"); // Use console.log instead of alert
+    }
+  }
 
   return (
     <div className="Body">
       <div className="Form">
-        <form>
+        <form onSubmit={handleSubmit1}>
           <div className="mb-3">
             <h2 className="Close2">
               Signup
@@ -21,27 +61,31 @@ export default function Signup() {
             </h2>
             <input
               type="text"
+              name="Name"
               className="form-control"
               aria-describedby="emailHelp"
               placeholder="Full-name"
-              required
+              onChange={inputChange1}
             />
           </div>
+          <div style={{ color: "red" }}>{name1Error}</div>
           <div className="mb-3">
             <input
               type="email"
+              name="email"
               className="form-control"
               id="exampleInputPassword1"
               placeholder="Email"
-              required
+              onChange={inputChange1}
             />
           </div>
+          <div style={{ color: "red" }}>{emailError}</div>
           <div className="mb-3 form-check">
             <input
               type="checkbox"
               className="form-check-input"
-              required
               onChange={handleCheckboxChange}
+              required
             />
             <label
               style={{
@@ -69,7 +113,7 @@ export default function Signup() {
               </a>
             </label>
           </div>
-          <button className={isChecked ? "Red" : "Silver"}>
+          <button on className={isChecked ? "Red" : "Silver"} type="submit">
             Create Account
           </button>
           <h6 style={{ color: "grey", marginTop: "20px", textAlign: "center" }}>
